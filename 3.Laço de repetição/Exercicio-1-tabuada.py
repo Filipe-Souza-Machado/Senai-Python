@@ -1,10 +1,10 @@
 import os
 
-os.system("cls || clear");
-
 n1: int;
 
 n1 = int(input("Digite um numero: "));
+
+os.system("cls || clear");
 
 for i in range(1,11):
     
