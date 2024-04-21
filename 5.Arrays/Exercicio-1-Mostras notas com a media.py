@@ -16,4 +16,7 @@ contador = len(notas);
 
 media = soma / contador;
 
+for i in range(4):
+    print(f"{i + 1}° nota: {notas[i]}");
+    
 print(f"Media: {media}");
