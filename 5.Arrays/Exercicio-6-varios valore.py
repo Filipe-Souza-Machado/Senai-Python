@@ -33,7 +33,7 @@ for i in range(0 , 5):
         somaPar = somaPar + numeros[i];
         contadorPar += 1;
     
-    else: 
+    if num %2==1: 
         qtdImpares += 1;
         somaImpar = somaImpar + numeros[i];
         contadorImpar += 1;
