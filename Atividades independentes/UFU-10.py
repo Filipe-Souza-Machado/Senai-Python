@@ -35,7 +35,8 @@ for i in range (QTDNUMEROS):
     if numeros %2 == 0 :
         qtdpares += 1
         somapares += numeros
-    else:
+
+    if nume:
         qtdimpares += 1
         somaimpares += numeros
 
@@ -45,8 +46,8 @@ for i in range (QTDNUMEROS):
     if(numeros > menornumero):
         menornumero = numeros
 
-    mediapares = somapares/qtdpares
-    mediaimpares = somaimpares/qtdimpares
+    mediapares = somapares / qtdpares;
+    mediaimpares = somaimpares / qtdimpares;
     
 print(f"A quantidade de valores apresentados e : {QTDNUMEROS}")
 print(f"A quantidade de valores positivos e : {qtdpositivo}")

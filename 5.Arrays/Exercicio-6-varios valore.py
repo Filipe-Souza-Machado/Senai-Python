@@ -66,6 +66,8 @@ print(f"Media par: {mediaPar}");
 print(f"Media impar: {mediaImpar}");
 print(f"Media geral: {mediaGeral}");
 
-for x in range(8 , 0):
-    print(f"{x}° valor: {numeros[x]}");
+numeros.reverse();
+
+for x in range(6 , 0, -1):
+    print(f"{numeros[x]}");
 
