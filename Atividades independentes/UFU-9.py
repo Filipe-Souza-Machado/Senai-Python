@@ -13,6 +13,8 @@ for i in range(0 , 6):
     numeros.append(num);
     os.system("cls || clear");
 
-    
+numeros.reverse();
 
+for x in numeros:
+    print(x);
 
